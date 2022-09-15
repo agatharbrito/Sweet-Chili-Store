@@ -1,4 +1,11 @@
-p {
-    text-align: center
+body {
+    background: #FFB6C0
 }
 
+p {
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
