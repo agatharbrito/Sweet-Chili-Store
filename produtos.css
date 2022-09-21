@@ -33,6 +33,11 @@ nav a {
     margin-right: 10px;
 }
 
+nav a:hover {
+    color: #008000;
+    text-decoration: underline;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -52,13 +57,25 @@ nav a {
 
 }
 
+.produtos li:hover {
+    border-color: #FF0084;
+}
+
+.produtos li:active {
+    border-color: #FF0084;
+}
+
+.produtos li:hover h2 {
+    font-size: 30px;
+}
+
 .produtos img {
     width: 200px;
     height: 300px;
 }
 
 .produtos h2 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: #FF0084;
 }
