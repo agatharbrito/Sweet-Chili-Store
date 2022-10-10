@@ -1,52 +1,130 @@
-body {
-  
+header {
+    background: #FFFFFF;
+    padding: 20px 0;
 }
 
-#banner {
-    width: 100%;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.principal {
-    background: #FFFFFF
-    padding: 30px;
+.logo {
+    width: 300px;
 }
 
-.titulo-principal{
-    padding-left: 20px;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-centralizado {
-    text-align: center
+nav li {
+    display: inline;
+    margin: 0 0 0;
 }
 
-p {
+nav a {
+    text-transform: uppercase;
+    color: #FF0084;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #008000;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #008000;
+    border-radius: 10px;
+
 }
 
-#missao {
-    font-size: 20px
+.produtos li:hover {
+    border-color: #FF0084;
 }
 
-em strong {
+.produtos li:active {
+    border-color: #FF0084;
+}
+
+.produtos li:hover h2 {
+    font-size: 30px;
+}
+
+.produtos img {
+    width: 200px;
+    height: 300px;
+}
+
+.produtos h2 {
+    font-size: 20px;
+    font-weight: bold;
     color: #FF0084;
 }
 
-.itens {
-    font-style: italic;
+.produto-descricao {
+    font-size: 18px;
+    color: #FF0084;
 }
 
-.sobre {
-    background: #FFFFFF;
-    padding: 20px;
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #FF0084;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+footer {
+    text-align: center;
+    padding: 40px 0;
 }
 
-.imagembanner1 {
-    width: 20%;
+.copyright {
+    color: #FF0084;
+    font-size: 14px;
+    margin: 20px 0 0;
+}
+
+.imagemrodape {
+    height: 180px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+margin {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
